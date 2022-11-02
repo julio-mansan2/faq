@@ -1,0 +1,151 @@
+@media (max-width: 325px) {
+    
+    body {
+        height: 100%;
+    }
+
+    main {
+        padding: 20% 10%;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10%;
+    }
+    
+    .img-desktop {
+        left: 0;
+        width: 100%;
+        top: -80px;
+    }
+
+    .acordeon {
+        text-align: left;
+        font-size: 0.8rem;
+    }
+
+    .faq {
+        padding-right: 0;
+    }
+
+    .faq h1 {
+        text-align: center;
+    }
+
+    .info {
+        font-size: 0.8rem;
+    }
+
+    .acordeon::after {
+        right: 0;
+        align-self: flex-start;
+    }
+
+    .icon-box {
+        width: 30%;
+        left: 10%;
+        top: 0;
+    }
+
+}
+
+
+@media (min-width: 375px) and (max-width: 450px) {
+    
+    body {
+        height: 100%;
+    }
+
+    main {
+        padding: 20% 10%;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10%;
+    }
+    
+    .img-desktop {
+        left: 0;
+        width: 100%;
+        top: -80px;
+    }
+
+    .acordeon {
+        text-align: left;
+        font-size: 0.8rem;
+    }
+
+    .faq {
+        padding-right: 0;
+    }
+
+    .faq h1 {
+        text-align: center;
+    }
+
+    .info {
+        font-size: 0.8rem;
+    }
+
+    .acordeon::after {
+        right: 0;
+        align-self: flex-start;
+    }
+
+    .icon-box {
+        width: 30%;
+        left: 10%;
+        top: 5%;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 1200px) {
+    body {
+        height: 100%;
+    }
+
+    main {
+        padding: 20% 10%;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10%;
+    }
+    
+    .img-desktop {
+        left: 0;
+        width: 100%;
+        top: -170px;
+    }
+
+    .acordeon {
+        text-align: left;
+        font-size: 0.8rem;
+    }
+
+    .faq {
+        padding-right: 0;
+    }
+
+    .faq h1 {
+        text-align: center;
+    }
+
+    .info {
+        font-size: 0.8rem;
+    }
+
+    .acordeon::after {
+        right: 0;
+        align-self: flex-start;
+    }
+
+    .icon-box {
+        width: 30%;
+        left: 10%;
+        top: 7%;
+    }
+}

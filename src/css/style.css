@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+    height: 100%;
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    padding: 3% 10%;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid hsl(240, 5%, 91%);
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.img-desktop {
+    position: relative;
+    left: -130px;
+}
+
+.icon-box {
+    position: absolute;
+    left: -100px;
+    z-index: 1;
+    top: 42%;
+}
+
+.faq h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+
+.acordeon {
+    margin: 15px 0;
+    transition: 0.3s ease-in-out;
+    font: 400 1.2rem 'Kummbh Sans', sans-serif;
+    color: hsl(240, 6%, 50%);
+}
+
+.acordeon::after {
+    content: url(../images/icon-arrow-down.svg);
+    position: absolute;
+    right: 20%;
+}
+
+.active::after {
+    transform: rotate(180deg);
+}
+
+.active.acordeon {
+    font-weight: 700;
+    color: hsl(238, 29%, 16%);
+}
+
+.acordeon:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+
+.info {
+    font-size: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.faq {
+    width: 100%;
+    padding-right: 10%;
+    position: relative;
+}
