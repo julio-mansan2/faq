@@ -49,7 +49,7 @@ hr {
 .acordeon {
     margin: 0.9rem 0;
     transition: 0.3s ease-in-out;
-    font: 400 1rem 'Kummbh Sans', sans-serif;
+    font: 400 0.9rem 'Kummbh Sans', sans-serif;
     color: var(--dark-grayish-blue);
 }
 
@@ -74,7 +74,7 @@ hr {
 }
 
 .info {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     margin-bottom: 0.6rem;
     overflow: hidden;
     max-height: 0;
