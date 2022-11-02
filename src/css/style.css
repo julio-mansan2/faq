@@ -8,7 +8,7 @@ body {
 main {
     height: 100%;
     background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    padding: 3% 10%;
+    padding: 5% 10%;
 }
 
 hr {
@@ -49,7 +49,7 @@ hr {
 .acordeon {
     margin: 15px 0;
     transition: 0.3s ease-in-out;
-    font: 400 1.2rem 'Kummbh Sans', sans-serif;
+    font: 400 1rem 'Kummbh Sans', sans-serif;
     color: hsl(240, 6%, 50%);
 }
 
@@ -74,7 +74,7 @@ hr {
 }
 
 .info {
-    font-size: 15px;
+    font-size: 0.9rem;
     margin-bottom: 10px;
     overflow: hidden;
     max-height: 0;
